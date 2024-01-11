@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- meta -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <!-- jq ui css link -->
+    <link rel="stylesheet" href="jq-ui/jquery-ui.min.css">
+    <!-- css link -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/media.css">
+  </head>
+  <body>
+    <!-- change html code -->
+    <h1>click the btton to change the text</h1>
+    <button class="btn btn-primary" onclick="textchange()">click me</button>
+    <h2 id="h2">lorem</h1>
+    <hr>
+<!-- date and time -->
+  <h1>click the botton to show the text</h1>
+  <button class="btn btn-success" id="date" onclick="dateAndTime()"> Date</button>
+  <hr>
+<!-- light on off -->
+<h1>light on off</h1>
+<button class="btn btn-primary" onclick="lighton()">on</button>
+<button class="btn btn-success" onclick="lightoff()">off</button>
+<img src="off.gif" id="img" alt="">
+<hr>
+
+<!-- change css -->
+<h1> mouseover button to change font size</h1>
+<button class="btn btn-primary" onmouseover="bigFont()" onmouseout="smallfont()" >click me</button>
+<h2 id="fontsize">Lorem ipsum dolor sit</h2>
+
+<!-- hide and show -->
+<h1>click the botton to hide and show</h1>
+<button class="btn btn-success" onclick="hide()">hide</button>
+<button class="btn btn-primary" onclick="show()">show</button>
+<p id="pa">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, quo?</p>
+<hr>
+
+
+<!-- add button -->
+<button class="btn btn-primary" onclick="add()">result</button>
+<span id="result"></span>
+
+
+<!-- // count p tag -->
+<h1>count p tag</h1>
+<button onclick="countp()">p tag count</button>
+<p>hello</p>
+<p>hello</p>
+<p>hello</p>
+<hr>
+
+
+<!-- draggable design -->
+<div id="draggable" class="ui-widget-content">
+  <p>Drag me around</p>
+</div>
+<!-- accordion -->
+<div class="container"> 
+  <div id="accordion">
+    <h3>Section 1</h3>
+    <div>
+      <p>
+      Mauris mauris ante, blandit et, ultrices a, suscipit eget, quam. Integer
+      ut neque. Vivamus nisi metus, molestie vel, gravida in, condimentum sit
+      amet, nunc. Nam a nibh. Donec suscipit eros. Nam mi. Proin viverra leo ut
+      odio. Curabitur malesuada. Vestibulum a velit eu ante scelerisque vulputate.
+      </p>
+    </div>
+    <h3>Section 2</h3>
+    <div>
+      <p>
+      Sed non urna. Donec et ante. Phasellus eu ligula. Vestibulum sit amet
+      purus. Vivamus hendrerit, dolor at aliquet laoreet, mauris turpis porttitor
+      velit, faucibus interdum tellus libero ac justo. Vivamus non quam. In
+      suscipit faucibus urna.
+      </p>
+    </div>
+    <h3>Section 3</h3>
+    <div>
+      <p>
+      Nam enim risus, molestie et, porta ac, aliquam ac, risus. Quisque lobortis.
+      Phasellus pellentesque purus in massa. Aenean in pede. Phasellus ac libero
+      ac tellus pellentesque semper. Sed ac felis. Sed commodo, magna quis
+      lacinia ornare, quam ante aliquam nisi, eu iaculis leo purus venenatis dui.
+      </p>
+      <ul>
+        <li>List item one</li>
+        <li>List item two</li>
+        <li>List item three</li>
+      </ul>
+    </div>
+    <h3>Section 4</h3>
+    <div>
+      <p>
+      Cras dictum. Pellentesque habitant morbi tristique senectus et netus
+      et malesuada fames ac turpis egestas. Vestibulum ante ipsum primis in
+      faucibus orci luctus et ultrices posuere cubilia Curae; Aenean lacinia
+      mauris vel est.
+      </p>
+      <p>
+      Suspendisse eu nisl. Nullam ut libero. Integer dignissim consequat lectus.
+      Class aptent taciti sociosqu ad litora torquent per conubia nostra, per
+      inceptos himenaeos.
+      </p>
+    </div>
+  </div>
+</div>
+
+
+
+<!-- form -->
+<div class="ui-widget">
+  <div class="container"> 
+    <form  action="#">
+      <div class="mb-3">
+        <label for="exampleInputEmail1" >Email address</label>
+        <input type="email" id="c_name" aria-describedby="emailHelp">
+      </div>
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+  </div>
+</div>
+
+
+<!-- date picker -->
+<div class="container">
+  <h1>date picker</h1>
+  <p>Date: <input type="text" id="datepicker"></p>
+  <hr>
+</div>
+
+
+<br><br><br><br><br><br><br><br><br><br>
+
+    <!-- jq libr link -->
+   <script src="js/jquery-3.7.1.min.js"></script> 
+   <!-- jq ui link -->
+   <script src="jq-ui/jquery-ui.min.js"></script>
+   <!-- js link -->
+   <script src="js/script.js"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

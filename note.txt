@@ -1,0 +1,5 @@
+dom = document object model
+
+
+jq version = 1.12.4
+24 min er por theke
